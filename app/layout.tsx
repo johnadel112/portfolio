@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://johnadelmakram.vercel.app"),
+  metadataBase: new URL("https://portfolio-ochre-psi-p53bwkm2cl.vercel.app"),
   title: {
     default: "John Adel Makram — AI Engineering & Software Development",
     template: "%s | John Adel Makram",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://johnadelmakram.vercel.app",
+    url: "https://portfolio-ochre-psi-p53bwkm2cl.vercel.app",
     siteName: "John Adel Makram",
     title: "John Adel Makram — AI Engineering & Software Development",
     description:

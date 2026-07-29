@@ -12,7 +12,7 @@ export const siteConfig = {
   github: "https://github.com/johnadel112",
   linkedin: "https://www.linkedin.com/in/john-adel-a14377181",
   /** Place your photo at /public/profile.jpg and set this to true */
-  hasProfileImage: false,
+  hasProfileImage: true,
   profileImage: "/profile.jpg",
   /** Place your CV at /public/cv.pdf */
   cvPath: "/cv.pdf",
