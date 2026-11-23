@@ -61,6 +61,7 @@ export function Projects() {
                     ))}
                   </ul>
                 </div>
+                {project.github ? (
                 <a
                   href={project.github}
                   target="_blank"
@@ -70,6 +71,7 @@ export function Projects() {
                   <GitHubIcon size={14} />
                   GitHub
                 </a>
+                ) : null}
               </li>
             ))}
           </ul>
