@@ -96,6 +96,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
           </ul>
 
           <div className="mt-5 flex flex-wrap items-center gap-2">
+            {project.github ? (
             <a
               href={project.github}
               target="_blank"
@@ -105,6 +106,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
               <GitHubIcon size={14} />
               GitHub
             </a>
+            ) : null}
             {project.liveDemo ? (
               <a
                 href={project.liveDemo}
@@ -213,6 +215,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
             </ul>
 
             <div className="mt-6 flex flex-wrap gap-2">
+              {project.github ? (
               <a
                 href={project.github}
                 target="_blank"
@@ -222,6 +225,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
                 <GitHubIcon size={16} />
                 View on GitHub
               </a>
+              ) : null}
               {project.liveDemo ? (
                 <a
                   href={project.liveDemo}
